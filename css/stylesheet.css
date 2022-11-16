@@ -1,18 +1,13 @@
-.button {
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
+div {
+  border: 1px solid #ff0000;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 .main_text {
-  color: ghostwhite;
+  color: whitesmoke;
   text-align: center;
   margin: 4px 2px;
 }
@@ -26,3 +21,59 @@ h2 {
   font-size: 20;
   font-weight: 300;
 }
+
+.column {
+  float: left;
+  padding: 10px;
+
+}
+
+.gallery {
+  overflow-wrap: break-word;
+  width: 60%;
+  float: left;
+}
+
+.button_group {
+  width: 40%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button_group {
+  float: right;
+  /* width of div element */
+  padding: 10px 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_group button {
+    border: none;
+    background-color: rgb(126, 161, 186);
+    color:white;
+    padding: 15px 6px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    margin: 7px auto;
+    
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+    display: inline-block;
+    /* button width */
+    width: 50%;
+    box-sizing: border-box;
+    
+  }
+
+.button:hover {
+  background-color: #bbcdcc;
+  color: white;
+  }
