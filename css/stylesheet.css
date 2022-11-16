@@ -22,15 +22,17 @@ body {
 
 .landing_page {
   height: 100vh;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .main_text {
-  color: rgb(0, 0, 0);
+  color: whitesmoke;
   text-align: center;
   margin: 4px 2px;
+  position: relative;
 }
 
 h1 {
@@ -50,6 +52,12 @@ h3 {
   font-family: 'Comfortaa';
   font-size: 18;
   font-weight: 200;
+}
+
+.landing_banner {
+  position: absolute;
+  width: auto;
+  height: 100vh;
 }
 
 .row {
