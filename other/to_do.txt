@@ -1,0 +1,14 @@
+to do:
+
+-button fades in on timer
+-fade out landing banner on button click
+
+
+
+-transitions fade in of banner (slide up and fade in)
+
+
+
+-audio toggle, top right corner
+-automatic carousel slideshow
+-properly link CSS

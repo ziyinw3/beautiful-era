@@ -1,5 +1,9 @@
+html {
+  scroll-behavior: smooth;
+}
+
 div {
-  border: 1px solid #ff0000;
+  border: 0px solid #ff0000;
 }
 
 * {
@@ -15,7 +19,7 @@ a {
 body {
   margin: 0px;
   padding: 0px;
-  border: 1px solid red;
+  border: 0px solid red;
   height: auto;
   width: auto;
   overflow-x: hidden;
@@ -55,10 +59,38 @@ h3 {
   font-weight: 200;
 }
 
-.scroll_button {
-  font-size: 50;
-  color:whitesmoke;
+.button_container {
+  position: absolute;
+  bottom: 12vh;
+  justify-content: center;
+  align-items: center;
 }
+
+#scroll_button {
+  border: 1.5px solid rgb(0, 0, 0);
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Comfortaa';
+  font-size: 40px;
+  margin: auto;
+  
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 18px;
+  display: block;
+  /* button width */
+  width: 70px;  
+  height: 70px;
+  z-index: 1;
+}
+
+#scroll_button:hover {
+  background-color: #ffffff22;
+  color: white;
+  }
 
 .landing_banner {
   position: absolute;
@@ -66,14 +98,14 @@ h3 {
   height: 100vh;
 }
 
-.row {
+#row {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-left: 20%;
   margin-right: 20%;
   width:auto;
-  height: 96.5vh;
+  height: 96vh;
 }
 
 .column {
@@ -118,7 +150,7 @@ h3 {
 .button_group button {
     border: none;
     background-color: rgb(126, 161, 186);
-    color:white;
+    color:whitesmoke;
     padding: 15px 6px;
     text-align: center;
     text-decoration: none;
@@ -162,6 +194,7 @@ h3 {
 
 .footer_text {
   font-family:'Comfortaa';
-  font-size: 14px;
+  font-size: 12px;
   color: whitesmoke;
+  text-decoration: none;
 }
