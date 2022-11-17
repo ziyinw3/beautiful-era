@@ -18,6 +18,7 @@ body {
   border: 1px solid red;
   height: auto;
   width: auto;
+  overflow-x: hidden;
 }
 
 .landing_page {
@@ -50,8 +51,13 @@ h2 {
 
 h3 {
   font-family: 'Comfortaa';
-  font-size: 18;
+  font-size: 14;
   font-weight: 200;
+}
+
+.scroll_button {
+  font-size: 50;
+  color:whitesmoke;
 }
 
 .landing_banner {
@@ -103,7 +109,7 @@ h3 {
 .nested {
   float: center;
   margin: auto;
-  width: inherit;
+  width: 80%;
   display: block;
   justify-content: center;
   align-items: center;
@@ -125,7 +131,7 @@ h3 {
     border-radius: 25px;
     display: block;
     /* button width */
-    width: 70%;
+    width: 50%;
     
   }
 
