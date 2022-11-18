@@ -69,7 +69,7 @@ h3 {
 #scroll_button {
   border: 1.5px solid rgb(0, 0, 0);
   background-color: transparent;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 5px;
   text-align: center;
   text-decoration: none;
@@ -89,7 +89,7 @@ h3 {
 
 #scroll_button:hover {
   background-color: #ffffff22;
-  color: white;
+  color: rgb(255, 255, 255);
   }
 
 .landing_banner {

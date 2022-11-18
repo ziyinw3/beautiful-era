@@ -5,7 +5,7 @@ to do:
 
 
 
--transitions fade in of banner (slide up and fade in)
+-transitions fade in of banner on launch (slide up and fade in)
 
 
 
