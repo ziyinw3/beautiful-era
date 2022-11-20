@@ -89,7 +89,7 @@ h3 {
 
 #scroll_button:hover {
   background-color: #ffffff22;
-  color: rgb(255, 255, 255);
+  color: #c40000;
   }
 
 .landing_banner {
@@ -149,7 +149,7 @@ h3 {
 
 .button_group button {
     border: none;
-    background-color: rgb(126, 161, 186);
+    background-color: rgb(0, 0, 0);
     color:whitesmoke;
     padding: 15px 6px;
     text-align: center;
@@ -160,7 +160,7 @@ h3 {
     
     transition-duration: 0.4s;
     cursor: pointer;
-    border-radius: 25px;
+    border-radius: 5px;
     display: block;
     /* button width */
     width: 50%;
@@ -168,7 +168,7 @@ h3 {
   }
 
 .button:hover {
-  background-color: #bbcdcc;
+  background-color: #c40000;
   color: white;
   }
 
@@ -185,7 +185,7 @@ h3 {
   max-width: 100%;
   max-height: 100%;
   text-align: center;
-  background-color: rgb(126, 161, 186);
+  background-color: #89a1b6;
   margin: 0px;
   padding: 10px;
   position: relative;
