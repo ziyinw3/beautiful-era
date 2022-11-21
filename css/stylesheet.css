@@ -85,12 +85,25 @@ h3 {
   width: 70px;  
   height: 70px;
   z-index: 1;
+
+  opacity: 0;
+  transition: 2s;
 }
 
 #scroll_button:hover {
   background-color: #ffffff22;
   color: #c40000;
   }
+
+.fade_in {
+  opacity: 1;
+  transition: 1s all ease-in;
+}
+
+.fade_out {
+  opacity: 0;
+  transition: 1s all ease-out;
+}
 
 .landing_banner {
   position: absolute;

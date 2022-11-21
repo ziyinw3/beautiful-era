@@ -12,3 +12,4 @@ to do:
 -audio toggle, top right corner
 -automatic carousel slideshow
 -properly link CSS
+-get favicon to show up
