@@ -1,0 +1,8 @@
+h1 {
+    color: red;
+}
+
+#TEXT {
+    opacity: 0;
+    transition: 2s;
+}

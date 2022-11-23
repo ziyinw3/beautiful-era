@@ -77,7 +77,6 @@ h3 {
   font-size: 40px;
   margin: auto;
   
-  transition-duration: 0.4s;
   cursor: pointer;
   border-radius: 18px;
   display: block;
@@ -94,16 +93,6 @@ h3 {
   background-color: #ffffff22;
   color: #c40000;
   }
-
-.fade_in {
-  opacity: 1;
-  transition: 1s all ease-in;
-}
-
-.fade_out {
-  opacity: 0;
-  transition: 1s all ease-out;
-}
 
 .landing_banner {
   position: absolute;

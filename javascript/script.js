@@ -1,10 +1,6 @@
-let scroll_button = document.getElementById('scroll_button');
+let scroll_button = document.getElementById("scroll_button");
 
-window.addEventListener(onload, () => {
-    scroll_button.classList.toggle("fade-in");
-})
-
-/*let scroll_button = document.getElementById('scroll_button');
-document.getElementById('body').onload = function() {
-    scroll_button.classList.toggle('fade_in');
-} */
+window.onload = function fade_in(){
+    console.log('The script will load now')
+    scroll_button.style.opacity = 1;
+    }
