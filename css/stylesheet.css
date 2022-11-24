@@ -38,6 +38,8 @@ body {
   text-align: center;
   margin: 4px 2px;
   position: relative;
+  opacity: 0;
+  transition: 2s;
 }
 
 h1 {
