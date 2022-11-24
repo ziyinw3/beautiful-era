@@ -1,6 +1,7 @@
-let scroll_button = document.getElementById("scroll_button");
+function fade_in(id, delay) {
+    setTimeout( () => document.getElementById(id).style.opacity = 1, delay);
+}
 
-window.onload = function fade_in(){
-    console.log('The script will load now')
-    scroll_button.style.opacity = 1;
-    }
+document.addEventListener('DOMContentLoaded', () => {
+    fade_in("scroll_button", 2000);
+});
