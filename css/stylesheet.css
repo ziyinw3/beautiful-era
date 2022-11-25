@@ -3,7 +3,7 @@ html {
 }
 
 div {
-  border: 0px solid #ff0000;
+  border: 1px solid #ff0000;
 }
 
 * {
@@ -25,12 +25,14 @@ body {
   overflow-x: hidden;
 }
 
-.landing_page {
+#landing_page {
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: 0.5s;
+  opacity: 1;
 }
 
 .main_text {
@@ -39,19 +41,18 @@ body {
   margin: 4px 2px;
   position: relative;
   opacity: 0;
-  transition: 2s;
+  transition: 1.5s;
 }
 
 h1 {
-  margin-top: 0px;
   font-size: 150;
   font-family: 'Ma Shan Zheng', cursive;
   font-weight: 100;
 }
 
 h2 {
-  font-size: 40;
-  font-family: 'Comfortaa';
+  font-size: 20;
+  font-family: 'Calibri';
   font-weight: 100;
 }
 
@@ -59,6 +60,39 @@ h3 {
   font-family: 'Comfortaa';
   font-size: 14;
   font-weight: 200;
+}
+
+#cn_title {
+  text-align: left;
+  font-size: 110;
+}
+
+#cn_title_small {
+  font-size: 70;
+}
+
+#cn_title_2 {
+  text-align: right;
+  font-size: 120;
+}
+
+#cn_title_small_container {
+  height: 60px;
+}
+
+#cn_title_container {
+  height: 90px;
+}
+
+#cn_title_2_container {
+  padding-right: 0%;
+}
+
+#title_container {
+  display: block;
+  position: absolute;
+  width: 30%;
+  left: 10%;
 }
 
 .button_container {
@@ -88,12 +122,13 @@ h3 {
   z-index: 1;
 
   opacity: 0;
-  transition: 2s;
+  transition: 1.5s;
 }
 
 #scroll_button:hover {
   background-color: #ffffff22;
   color: #c40000;
+  transition: 0.5s;
   }
 
 .landing_banner {
@@ -189,7 +224,7 @@ h3 {
   max-width: 100%;
   max-height: 100%;
   text-align: center;
-  background-color: #89a1b6;
+  background-color: none;
   margin: 0px;
   padding: 10px;
   position: relative;
@@ -197,8 +232,8 @@ h3 {
 }
 
 .footer_text {
-  font-family:'Comfortaa';
-  font-size: 12px;
-  color: whitesmoke;
+  font-family:'Calibri';
+  font-size: 10px;
+  color: black;
   text-decoration: none;
 }

@@ -1,8 +1,26 @@
-h1 {
-    color: red;
-}
-
-#TEXT {
-    opacity: 0;
-    transition: 2s;
-}
+body {
+    padding: 40px;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #FFF3E0;
+  }
+  
+  .page-header {
+    background-color: #FF8A5B;
+    border-radius: 16px;
+    padding: 100px 40px;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    margin: 0;
+    color: white;
+    font-size: 42px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.3;
+  }

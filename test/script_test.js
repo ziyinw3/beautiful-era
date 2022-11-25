@@ -1,7 +1,7 @@
-function fade_in(id, delay) {
-    setTimeout( () => document.getElementById(id).style.opacity = 1, delay);
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-    fade_in("TEXT", 2000);
-});
+window.addEventListener('scroll', () => {
+    const position = window.scrollY;
+    if (Math.ceil(position) === 1000) {
+        alert('you passed 1000!');
+    }
+    console.log(position);
+})

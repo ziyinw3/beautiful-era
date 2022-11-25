@@ -1,12 +1,9 @@
 to do:
 
--button fades in on timer
 -fade out landing banner on button click
-
-
-
 -transitions fade in of banner on launch (slide up and fade in)
-
+-redo buttons : 3 square lattice structure, on hover slide and reveal eng
+-play watercolor animation and chinese overlay
 
 
 -audio toggle, top right corner
