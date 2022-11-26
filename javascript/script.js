@@ -16,11 +16,3 @@ document.addEventListener('DOMContentLoaded', () => {
     fade_in("subtitle", 500);
 });
 
-document.getElementById("scroll_button").addEventListener('click', () => {
-    fade_out("landing_page", 0);
-  });
-
-window.addEventListener('scroll', () => {
-    var position = window.scrollY;
-    console.log(position);
-})

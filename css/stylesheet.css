@@ -3,7 +3,7 @@ html {
 }
 
 div {
-  border: 1px solid #ff0000;
+  border: 0px solid #ff0000;
 }
 
 * {
@@ -145,6 +145,8 @@ h3 {
   margin-right: 20%;
   width:auto;
   height: 96vh;
+  transition: 1.5s;
+  opacity: 0;
 }
 
 .column {
