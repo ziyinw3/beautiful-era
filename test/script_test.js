@@ -1,8 +1,3 @@
-
-var scrollPos = 0;
-var dir = '';
-
-
 window.addEventListener("scroll", () => {
     fade_scroll('element');
 })
@@ -45,5 +40,4 @@ function fade_scroll(id) {
     }
 
     element.style.opacity = opacity;
-    console.log(window.innerHeight, element_top);
 }

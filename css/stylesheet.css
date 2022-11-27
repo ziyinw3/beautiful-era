@@ -31,12 +31,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  transition: 0.5s;
   opacity: 1;
 }
 
 .main_text {
-  color: whitesmoke;
+  color: black;
   text-align: center;
   margin: 4px 2px;
   position: relative;
@@ -105,7 +104,7 @@ h3 {
 #scroll_button {
   border: 1.5px solid rgb(0, 0, 0);
   background-color: transparent;
-  color: rgb(255, 255, 255);
+  color: black;
   padding: 5px;
   text-align: center;
   text-decoration: none;
@@ -145,8 +144,7 @@ h3 {
   margin-right: 20%;
   width:auto;
   height: 96vh;
-  transition: 1.5s;
-  opacity: 0;
+  opacity: 1;
 }
 
 .column {
