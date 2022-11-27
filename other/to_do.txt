@@ -1,7 +1,7 @@
 to do:
 
--fade out landing banner on button click
 -transitions fade in of banner on launch (slide up and fade in)
+-shake button periodically
 -redo buttons : 3 square lattice structure, on hover slide and reveal eng
 -play watercolor animation and chinese overlay
 
