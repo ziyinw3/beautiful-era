@@ -27,12 +27,14 @@ function fade_scroll(id) {
         console.log('4');
     }
     // element bottom in vp
-    else if (element_top < 0) {
+    else if (element_top < 0 && element_bottom < window.innerHeight) {
         opacity = element_bottom / window.innerHeight;
+        console.log('1');
     }
     // element top in vp
-    else {
-        opacity = (window.innerHeight - element.top) / window.innerHeight;
+    else if (element_top > 0 && element_bottom > window.innerHeight) {
+        opacity = (window.innerHeight - element_top) / window.innerHeight;
+        console.log('2');
     }
     // floorer
     if (opacity > 1) {
@@ -43,5 +45,5 @@ function fade_scroll(id) {
     }
 
     element.style.opacity = opacity;
-    console.log(element_bottom, element_top);
+    console.log(window.innerHeight, element_top);
 }
