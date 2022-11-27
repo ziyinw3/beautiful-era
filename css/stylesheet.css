@@ -3,7 +3,7 @@ html {
 }
 
 div {
-  border: 0px solid #ff0000;
+  border: 1px solid #ff0000;
 }
 
 * {
@@ -75,23 +75,36 @@ h3 {
   font-size: 120;
 }
 
-#cn_title_small_container {
-  height: 60px;
-}
-
 #cn_title_container {
   height: 90px;
+  position: relative;
+}
+
+#cn_title_small_container {
+  height: 60px;
+  position: relative;
 }
 
 #cn_title_2_container {
   padding-right: 0%;
+  position: relative;
 }
+
+#en_title_container {
+  position: relative;
+}
+
+#subtitle_container {
+  position: relative;
+}
+
 
 #title_container {
   display: block;
   position: absolute;
   width: 30%;
   left: 10%;
+  border-color: blue;
 }
 
 .button_container {

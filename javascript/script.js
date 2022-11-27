@@ -40,11 +40,11 @@ function fade_scroll(id) {
     }
     // element bottom in vp
     else if (element_top < 0 && element_bottom < window.innerHeight) {
-        opacity = 1.5 * element_bottom / window.innerHeight;
+        opacity = 1.3 * element_bottom / window.innerHeight;
     }
     // element top in vp
     else if (element_top > 0 && element_bottom > window.innerHeight) {
-        opacity = 1.5 * (window.innerHeight - element_top) / window.innerHeight;
+        opacity = 1.3 * (window.innerHeight - element_top) / window.innerHeight;
     }
     // floorer
     if (opacity > 1) {
