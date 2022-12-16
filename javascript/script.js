@@ -11,7 +11,6 @@ document.addEventListener('DOMContentLoaded', () => {
 window.addEventListener("scroll", () => {
     fade_scroll('landing_page');
     fade_scroll('row');
-    console.log(document.getElementById('landing_page').style.opacity);
 })
 
 // functions

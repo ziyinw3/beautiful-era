@@ -2,6 +2,11 @@ div {
   border: 1px solid red;
 }
 
-p {
-  font-size: 40;
+#container {
+  height: 200px;
+}
+
+#text {
+  font-size: 40px;
+  color:blue;
 }

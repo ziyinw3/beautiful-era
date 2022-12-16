@@ -156,7 +156,7 @@ h3 {
   margin-left: 20%;
   margin-right: 20%;
   width:auto;
-  height: 96vh;
+  height: 97vh;
   opacity: 1;
 }
 
@@ -239,14 +239,14 @@ h3 {
   text-align: center;
   background-color: none;
   margin: 0px;
-  padding: 10px;
+  padding: 2px;
   position: relative;
   bottom: 0;
 }
 
 .footer_text {
   font-family:'Calibri';
-  font-size: 10px;
+  font-size: 12px;
   color: black;
   text-decoration: none;
 }
