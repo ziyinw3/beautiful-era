@@ -15,6 +15,7 @@ window.addEventListener("scroll", () => {
 
 // functions
 
+
 function fade_in(id, delay) {
     setTimeout( () => document.getElementById(id).style.opacity = 1, delay);
 }
@@ -40,6 +41,7 @@ function fade_scroll(id) {
     // element bottom in vp
     else if (element_top < 0 && element_bottom < window.innerHeight) {
         opacity = 1.3 * element_bottom / window.innerHeight;
+    // adjust multiplier to tune for 'forgiveness' of opacity based on full element display
     }
     // element top in vp
     else if (element_top > 0 && element_bottom > window.innerHeight) {

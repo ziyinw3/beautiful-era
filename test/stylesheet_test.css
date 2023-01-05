@@ -4,9 +4,18 @@ div {
 
 #container {
   height: 200px;
+  position: relative;
 }
 
 #text {
   font-size: 40px;
   color:blue;
+  position: absolute;
+  transform:translateY(100px);
+  transition: all 1s ease;
+}
+
+#text.slide {
+  transform:translateY(0px);
+
 }

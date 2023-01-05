@@ -1,6 +1,9 @@
 to do:
 
 -transitions fade in of banner on launch (slide up and fade in)
+
+https://www.geeksforgeeks.org/how-to-dynamically-create-and-apply-css-class-in-javascript/
+
 -shake button periodically
 -redo buttons : 3 square lattice structure, on hover slide and reveal eng
 -play watercolor animation and chinese overlay
