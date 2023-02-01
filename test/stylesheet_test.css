@@ -9,13 +9,14 @@ div {
 
 #text {
   font-size: 40px;
+  opacity: 0;
   color:blue;
   position: absolute;
-  transform:translateY(100px);
-  transition: all 1s ease;
+  transform:translateY(200px);
+  transition: all 1.5s ease;
 }
 
 #text.slide {
   transform:translateY(0px);
-
+  opacity: 1;
 }

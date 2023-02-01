@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', () => {
     // elements fade in on launch
-    fade_in("scroll_button", 1600);
-    fade_in("cn_title", 200);
-    fade_in("cn_title_small", 250);
-    fade_in("cn_title_2", 300);
-    fade_in("en_title", 400);
-    fade_in("subtitle", 500);
+    slideUp("scroll_button", 1600);
+    slideUp("cn_title_container", 200);
+    slideUp("cn_title_small_container", 250);
+    slideUp("cn_title_2_container", 300);
+    slideUp("en_title_container", 450);
+    slideUp("subtitle_container", 700);
 });
 
 window.addEventListener("scroll", () => {
@@ -56,3 +56,10 @@ function fade_scroll(id) {
     }
     element.style.opacity = opacity;
 }
+
+function slideUp(id, delay) {
+    id = document.getElementById(id);
+    setTimeout( () => id.classList.add("slide"), delay);
+    
+}
+

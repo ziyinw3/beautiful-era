@@ -3,7 +3,7 @@ html {
 }
 
 div {
-  border: 1px solid #ff0000;
+  border: 0px solid #ff0000;
 }
 
 * {
@@ -39,7 +39,7 @@ body {
   text-align: center;
   margin: 4px 2px;
   position: relative;
-  opacity: 0;
+  opacity: 1;
   transition: 1.5s;
 }
 
@@ -75,34 +75,75 @@ h3 {
   font-size: 120;
 }
 
+
 #cn_title_container {
   height: 90px;
   position: relative;
+  opacity: 0;
+  transform:translateY(200px);
+  transition: all 1.5s ease;
+  text-align: left;
+}
+
+#cn_title_container.slide {
+  transform:translateY(0px);
+  opacity: 1;
 }
 
 #cn_title_small_container {
   height: 60px;
   position: relative;
+  opacity: 0;
+  transform:translateY(200px);
+  transition: all 1.5s ease;
+}
+
+#cn_title_small_container.slide {
+  transform:translateY(0px);
+  opacity: 1;
 }
 
 #cn_title_2_container {
   padding-right: 0%;
   position: relative;
+  opacity: 0;
+  transform:translateY(200px);
+  transition: all 1.5s ease;
+}
+
+#cn_title_2_container.slide {
+  transform:translateY(0px);
+  opacity: 1;
 }
 
 #en_title_container {
   position: relative;
+  opacity: 0;
+  transform:translateY(200px);
+  transition: all 1.5s ease;
+}
+
+#en_title_container.slide {
+  transform:translateY(0px);
+  opacity: 1;
 }
 
 #subtitle_container {
   position: relative;
+  opacity: 0;
+  transform:translateY(200px);
+  transition: all 1.5s ease;
 }
 
+#subtitle_container.slide {
+  transform:translateY(0px);
+  opacity: 1;
+}
 
 #title_container {
-  display: block;
+  display:block;
   position: absolute;
-  width: 30%;
+  width: 27%;
   left: 10%;
   border-color: blue;
 }
@@ -135,6 +176,12 @@ h3 {
 
   opacity: 0;
   transition: 1.5s;
+  transform:translateY(40px);
+}
+
+#scroll_button.slide {
+  transform:translateY(0px);
+  opacity: 1;
 }
 
 #scroll_button:hover {
@@ -200,31 +247,31 @@ h3 {
 }
 
 .button_group button {
-    border: none;
-    background-color: rgb(0, 0, 0);
-    color:whitesmoke;
-    padding: 15px 6px;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Comfortaa';
-    font-size: 14px;
-    margin: 20px auto;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color:whitesmoke;
+  padding: 15px 6px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Comfortaa';
+  font-size: 14px;
+  margin: 20px auto;
     
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius: 30px;
-    display: block;
-    /* button width */
-    width: 50%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 30px;
+  display: block;
+  /* button width */
+  width: 50%;
     
-  }
+}
 
 .button:hover {
   background-color: #c40000;
   color: white;
-  }
+}
 
-.slide {
+#carousel {
   display:flex;
   justify-content: center;
   align-items: center;
